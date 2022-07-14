@@ -4,17 +4,22 @@
     <meta charset="UTF-8" />
     <title>HTML</title>
   </head>
+
+  <!-- Link para o arquivo styles.css -->
+
+  <link rel="stylesheet" href="styles.css">
+
   <body>
     <!--  Seu nome completo -->
 
-    <strong> <h3>Gabriel Palhares Miranda</h3> </strong>
+    <strong> <h15>Gabriel Palhares Miranda</h15> </strong>
 
     <!-- Uma foto atual sua, acompanhada de um texto alternativo,
          que deve ser a descrição da foto que você está usando; -->
 
     <p id="foto-gabriel">
-      <img
-        src="https://ca.slack-edge.com/TMDDFEPFU-U03NDNXD29F-280d1965da75-512"
+      <img class="foto-principal"
+        src="images/foto.jpeg"
         alt="foto Gabriel Palhares Miranda"
         width="300px"
       />
@@ -24,22 +29,26 @@
 
     <h3>Redes Para Contato!</h3>
 
-    <a href="https://www.linkedin.com/in/devpalhares/"
-        >Linkedln <img src="linkedln.png" alt="linkedin logo" width="25px"></a
-      >
-
-      <br></br>
-
-      <a href="https://github.com/GPalhares"
-      >Github <img src="github.png" alt="github logo" width="25px"></a
+    <p id="icons"><a href="https://www.linkedin.com/in/devpalhares/"
+      > <img src="images/linkedln.png" alt="linkedin logo" width="80px"></a
     >
+    
+
+    <a href="https://github.com/GPalhares"
+    > <img src="images/github.png" alt="github logo" width="80px"></a
+  >
+  <a href="mailto:devpalhares@gmail.com"
+  > <img src="images/gmail.png" alt="github logo" width="120px"></a
+>
+</p>
+    
 
     <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e 
             a cidade/estado onde mora; -->
 
     <p id="info">
-      Bem vindo ao meu potfolio, tenho 22 anos e moro em Patos de Minas MG
-      <br />, atualmente estudando Desenvolvimento Web na Trybe!
+      Bem vindo ao meu potfólio, tenho 22 anos e moro em Patos de Minas-MG,
+      <br /> atualmente estudando Desenvolvimento Web na Trybe!
     </p>
 
     <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
@@ -54,12 +63,19 @@
     </ul>
 
     <h3>Hard Skills</h3>
+    <ul>
 
-    <li>Javascript</li>
+      <li>Javascript</li>
     <li>Html</li>
-    <li>Css</li>
+    <li>CSS</li>
     <!-- Partes do seu portfólio destacadas com negrito e/ou itálico; -->
     <li><strong>Node.js</strong></li>
+
+    </ul>
+    <h3>Objetivos</h3>
+
+    <p>Desejo me tornar um desenvolvedor fullstack com foco em <strong>BACK END</strong> </p>
+    
   </ul>
 
     <!-- Um link interno para a sua foto; -->
@@ -67,16 +83,16 @@
    
 
     <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba; -->
-    <h3>
+    <h4 >
       Um Canal no youtube que eu sigo e me inspira a ser um programador melhor!
       <a href="https://www.youtube.com/c/FabioAkita1990/featured"
         >Canal do AkitaOnRails!</a
       >
-    </h3>
+    </h4>
 
     <!-- Um índice com links internos para as diferentes seções do seu portfólio. -->
 
-    <ol>
+    <ol style="padding: 50px;">
       <li><a href="#skills"> Skills!</a></li>
       <li><a href="#foto-gabriel"> Foto</a></li>
       <li><a href="#info"> Informações pessoais</a></li>
