@@ -1,41 +1,101 @@
-#icons{padding: 5px;word-spacing: 15px;}
+#icons {
+  padding: 5px;
+  word-spacing: 15px;
+}
 
 /* Defina uma cor base de background do seu Portfólio Web; */
-body{ background: linear-gradient(rgb(77, 27, 192), rgb(224, 79, 103));}
+body {
+  background: linear-gradient(rgb(77, 27, 192), rgb(224, 79, 103));
+}
 
-h3{color: rgb(255, 255, 255);
-font-size: 40px;
-font-family: 'Courier New', Courier, monospace;}
+h3 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
 
-h4{color: rgb(255, 255, 255);
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;}
+h4 {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+}
 
-.foto-principal{border-radius: 100%;}
+.foto-principal {
+  border-radius: 100%;
+}
 
 /* Altere o estilo das tags que você usou para destacar algumas informações, 
 como sua nacionalidade e a cidade/estado onde mora; */
 
-p{font-family: 'Courier New', Courier, monospace;
-color: rgb(255, 255, 255);
-font-size: 25px;
+p {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+/* Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou.
+     Lembre-se de usar classes para cada um dos elementos; */
+
+ul {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ol {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  list-style-type: none;
+}
+
+a {
+  color: coral;
+  text-decoration: none;
+}
+
+#foto-gabriel {
+  /* A descrição deve ficar ao lado da foto; */
+
+  float: left;
+  height: 300px;
+
+  /*Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;*/
+
+  padding: 1px;
+  background-color: rgba(130, 41, 182, 0.171);
+}
+
+.image-container {
+  height: 300px;
 }
 
 /* Defina fontes diferentes para o seu nome e para a descrição que você criou; */
 
-h15{color: coral;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;}
+.meu-nome {
+  /*  Centralize seu nome na página; */
 
-    /* Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou.
-     Lembre-se de usar classes para cada um dos elementos; */
+  text-align: center;
+  color: coral;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-ul{color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;}
+/*Adicione margin e padding nos elementos que julgar necessário;*/
 
-ol{color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-family: 'Courier New', Courier, monospace;}
+#info {
+  position: relative;
+  left: 100px;
+  top: 50%;
+  font-size: 30px;
+}
 
-a{color: coral;}
+/*Coloque estilo somente nos itens ímpares da lista das suas habilidades.*/
+
+ul li:nth-child(odd) {
+  font-style: inherit;
+}
+
+#rede-para-contato {
+  padding-top: 30px;
+  text-align: justify;
+}
